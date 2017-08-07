@@ -1,0 +1,70 @@
+<hr/>
+<div class="container" ng-init="getAllProducts()">
+    <h2>Welcome To Yojna Online - IQI Online Facility</h2>
+</div>
+<hr/>
+
+<div class="row row-md-4">
+    <div id="exTab1" class="container-fluid">
+        <ul class="navbar navbar-inverse">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">Yojna - IQI</a>
+            </div>
+
+            <div>
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="#1a" data-toggle="tab">Product</a>
+                    </li>
+                    <li><a href="#2a" data-toggle="tab">Order</a>
+                    </li>
+                    <li><a href="#3a" data-toggle="tab">Popular</a>
+                    </li>
+                    <li><a href="#4a" data-toggle="tab">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </ul>
+
+        <div class="tab-content">
+            <div class="tab-pane active" id="1a">
+                <h3>Browse Products</h3>
+                <div class="container">
+
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>Product Id</th>
+                            <th>Product Name</th>
+                            <th>Price</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr ng-repeat="p in products">
+                            <td>{{p.productId}}</td>
+                            <td>{{p.productName}}</td>
+                            <td>{{p.productPrice}}</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="tab-pane" id="2a">
+                <h3>Order Product / Service</h3>
+
+            </div>
+            <div class="tab-pane" id="3a">
+                <h3>Most Poular</h3>
+            </div>
+            <div class="tab-pane" id="4a">
+                <h3>About Us</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr/>
+<div class="container">
+    <h1> &copy; All Rights Are Reserved </h1>
+</div>
+<hr/>
