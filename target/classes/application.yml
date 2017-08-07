@@ -1,9 +1,0 @@
-# Application Common Local Configuration
-spring:
-  thymeleaf:
-    cache: false
-  profiles:
-    active: dev
-
-server:
-  port: 12345
