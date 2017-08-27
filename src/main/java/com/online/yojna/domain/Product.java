@@ -2,8 +2,10 @@ package com.online.yojna.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
-@Entity
+@Entity(name = "prod")
+@Table(name = "Product")
 public class Product {
 	@Id
     private String productId;

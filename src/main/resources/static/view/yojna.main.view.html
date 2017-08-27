@@ -1,0 +1,55 @@
+<hr/>
+<div class="container" ng-init="getAllProducts()">
+<h2>Welcome To Yojna Online - IQI Online Facility</h2>
+</div>
+<hr/>
+
+<div class="row row-md-4">
+<div id="exTab1" class="container-fluid">
+    <ul class="navbar navbar-inverse">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">Yojna - IQI</a>
+        </div>
+
+        <div>
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="#product" data-toggle="tab">Product</a>
+                </li>
+                <li><a href="#order" data-toggle="tab">Order</a>
+                </li>
+                <li><a href="#3a" data-toggle="tab">Popular</a>
+                </li>
+                <li><a href="#4a" data-toggle="tab">About Us</a>
+                </li>
+            </ul>
+        </div>
+    </ul>
+
+    <div class="tab-content">
+        <div class="tab-pane active" id="product">
+            <h3>Browse Products</h3>
+            <div ng-include="'view/yojna.partial.product.html'"></div>
+
+        </div>
+        <div class="tab-pane" id="order" >
+            <h3>Order Product / Service</h3>
+
+            <div ng-include="'view/yojna.partial.order.html'"></div>
+
+        </div>
+        <div class="tab-pane" id="3a">
+            <h3>Most Poular</h3>
+        </div>
+        <div class="tab-pane" id="4a">
+            <h3>About Us</h3>
+        </div>
+    </div>
+</div>
+</div>
+
+<hr/>
+<div class="container">
+<h1> &copy; All Rights Are Reserved </h1>
+</div>
+<hr/>

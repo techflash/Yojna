@@ -2,7 +2,7 @@ var yojnaApp = angular.module('yojnaApp', ['ngRoute']);
 
 yojnaApp.config(['$routeProvider', function($routeProvider) {
     $routeProvider.when('/products', {
-        templateUrl: 'view/yojna.partial.product.html',
+        templateUrl: 'view/yojna.main.view.html',
         controller: 'productCntrl'
     });
     $routeProvider.otherwise({
