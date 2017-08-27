@@ -1,6 +1,4 @@
-# ==================================#
-#      Yojna - IQI
-# ==================================#
+#   Yojna - IQI
 
 ## Introduction:
     This is a Spring Boot based web application which supports the operation of IQI(R)
@@ -9,11 +7,12 @@
 ## Creator:
    Sunil Vishwakarma
 
-# -----------------------------------------------------
 # Application Startup
+   ```
+   public class Prarambha {
 
-public class Praramba {
-    public static void main(String[] args) {
-        SpringApplication.run(Yojna.class, args);
-    }
-}
+       public static void main(String[] args) {
+           SpringApplication.run(Prarambha.class, args);
+       }
+   }
+   ```
