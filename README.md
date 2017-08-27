@@ -12,7 +12,7 @@
 # -----------------------------------------------------
 # Application Startup
 
-public class Youjna {
+public class Praramba {
     public static void main(String[] args) {
         SpringApplication.run(Yojna.class, args);
     }
